@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>XixiEat</title>
+
+
+</head>
+
+<body>
+    <header class="my-header">
+        <a class="header-h1" href="./index.html">XixiEat</a>
+        <nav class="my-navbar">
+            <ul class="">
+                <li><a href="./../美食分類/category.html">美食分類</a></li>
+                <li><a href="./../美食地圖/map.html">美食地圖</a></li>
+                <!-- <li><a href="./../新店報報/新店報報.html">新店報報</a></li> -->
+                <li><a href="./../聯絡我們/contact.html">聯絡我們</a></li>
+            </ul>
+        </nav>
+        <div class="wrap">
+            <div>
+                <div class="search">
+                    <input class="search-bar" placeholder="搜尋..." type="text">
+                    <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="social-icon">
+
+            <!-- <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a> -->
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </header>
+    <div class="main">
+        <div class="w3-content w3-display-container" style="width: 100%;">
+            <img class="mySlides" src="./../images/1515小酸辣.jpeg" style="width: 100%;" >
+            <img class="mySlides" src="./../images/1515金香.jpeg" style="width: 100%;">
+            <img class="mySlides" src="./../images/1515-牧島.jpeg" style="width: 100%;">
+            <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle"
+                style="width:100%">
+                <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+                <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+                <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+                <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+                <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+            </div>
+        </div>
+
+        <div class="mainitem">
+            <div class="sidebar">
+                <ul>
+                    <li><a href="">日式</a></li>
+                    <li><a href="">咖哩</a></li>
+                    <li><a href="">燒肉</a></li>
+                    <li><a href="">甜點</a></li>
+                </ul>
+
+            </div>
+            <div class="item">
+                <div>
+                    <div class="card">
+                        <img src="../images/ten thousand.jpeg" style="object-fit: cover;">
+                        <div class="card-content">
+                            <h3>Ten Thousand Coffee</h3>
+                            <p>111111111</p>
+                            <a href="" class="btn">Read More...</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img src="" alt="">
+                    <p>2</p>
+                </div>
+                <div>
+                    <img src="" alt="">
+                    <p>3</p>
+                </div>
+                <div>
+                    <img src="" alt="">
+                    <p>4</p>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+
+        <div class="footer-logo">XixiEat</div>
+        <div class="text-center" style="font-size: 15px;">&copy; 此網站為練習使用</div>
+    </footer>
+
+    
+    
+    <script src="./index.js"></script>
+    
+</body>
+
+</html>

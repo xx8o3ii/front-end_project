@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./map.css">
+    <link rel="stylesheet" href="./../css/template.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>east</title>
+</head>
+<body>
+    <header class="my-header">
+        <a class="header-h1" href="./../index/index.html">XixiEat</a>
+        <nav class="my-navbar">
+            <ul class="">
+                <li><a href="./../美食分類/category.html">美食分類</a></li>
+                <li><a href="./../美食地圖/map.html">美食地圖</a></li>
+                <!-- <li><a href="./../新店報報/新店報報.html">新店報報</a></li> -->
+                <li><a href="./../聯絡我們/contact.html">聯絡我們</a></li>
+            </ul>
+        </nav>
+        <div class="social-icon">
+            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </header>
+    <div class="main">
+    
+        <div class="mainitem">
+            <div class="sidebar">
+                <ul>
+                    <li><a href="./west.html">西區/西屯區</a></li>
+                    <li><a href="./south.html">南區/南屯區</a></li>
+                    <li><a href="./east.html">東區/中區</a></li>
+                    <li><a href="./north.html">北區/北屯區</a></li>
+                </ul>
+                    
+            </div>
+            <div class="item">
+                <div>
+                    <div class="card">
+                        <img src="../images/天津狗不理湯包.jpeg" style="object-fit: cover;">
+                        <div class="card-content">
+                            <h3 style="font-size: 25px; font-weight: bold;">天津狗不理湯包</h3>
+                            <p style="font-size: 18px; font-weight: bold;">推薦指數：★★☆☆☆
+                                <span id="dots1">...</span>
+                                <br>
+                                <span id="more1" style="display: none;">
+                                    地址：台中市東區信義街63號
+                                </span>
+                            </p>
+                            <button onclick="readMoreClicked('1')" id="myBtn1" class="readmore">Read more</button>
+                        </div>
+                    </div>
+                </div>   
+                <div>
+                    <div class="card">
+                        <img src="../images/阿賢姐越南麵包.webp" style="object-fit: cover;">
+                        <div class="card-content">
+                            <h3 style="font-size: 25px; font-weight: bold;">阿賢姐越南麵包</h3>
+                            <p style="font-size: 18px; font-weight: bold;">推薦指數：★★★☆☆
+                                <span id="dots2">...</span>
+                                <br>
+                                <span id="more2" style="display: none;">
+                                    地址：台中市東區大勇街165號
+                                </span>
+                            </p>
+                            <button onclick="readMoreClicked('2')" id="myBtn2" class="readmore">Read more</button>
+                        </div>
+                    </div>
+                </div>   
+                <div>
+                    <div class="card">
+                        <img src="../images/高麗屋1.jpeg" style="object-fit: cover;">
+                        <div class="card-content">
+                            <h3 style="font-size: 25px; font-weight: bold;">高麗屋</h3>
+                            <p style="font-size: 18px; font-weight: bold;">推薦指數：★☆☆☆☆
+                                <span id="dots3">...</span>
+                                <br>
+                                <span id="more3" style="display: none;">
+                                    地址：台中市東區十甲東路622號
+                                </span>
+                            </p>
+                            <button onclick="readMoreClicked('3')" id="myBtn3" class="readmore">Read more</button>
+                        </div>
+                    </div>
+                </div> 
+                <div>
+                    <div class="card">
+                        <img src="../images/嵐肉燥1.jpeg" style="object-fit: cover;">
+                        <div class="card-content">
+                            <h3 style="font-size: 25px; font-weight: bold;">嵐肉燥</h3>
+                            <p style="font-size: 18px; font-weight: bold;">推薦指數：★★★★☆
+                                <span id="dots4">...</span>
+                                <br>
+                                <span id="more4" style="display: none;">
+                                    地址：台中市中區三民路二段87號第二市場內36、37號
+                                </span>
+                            </p>
+                            <button onclick="readMoreClicked('4')" id="myBtn4" class="readmore">Read more</button>
+                        </div>
+                    </div>
+                </div> 
+                <div>
+                    <div class="card">
+                        <img src="../images/天天饅頭.jpeg" style="object-fit: cover;">
+                        <div class="card-content">
+                            <h3 style="font-size: 25px; font-weight: bold;">天天饅頭</h3>
+                            <p style="font-size: 18px; font-weight: bold;">推薦指數：★★☆☆☆
+                                <span id="dots5">...</span>
+                                <br>
+                                <span id="more5" style="display: none;">
+                                    地址：台中市中區台灣大道一段336巷
+                                </span>
+                            </p>
+                            <button onclick="readMoreClicked('5')" id="myBtn5" class="readmore">Read more</button>
+                        </div>
+                    </div>
+                </div> 
+                <div>
+                    <div class="card">
+                        <img src="../images/水尾臭豆腐.webp" style="object-fit: cover;">
+                        <div class="card-content">
+                            <h3 style="font-size: 25px; font-weight: bold;">花蓮水尾臭豆腐</h3>
+                            <p style="font-size: 18px; font-weight: bold;">推薦指數：★★★★☆
+                                <span id="dots6">...</span>
+                                <br>
+                                <span id="more6" style="display: none;">
+                                    地址：台中市東區自由路三段151號
+                                </span>
+                            </p>
+                            <button onclick="readMoreClicked('6')" id="myBtn6" class="readmore">Read more</button>
+                        </div>
+                    </div>
+                </div>   
+                
+                    
+            </div>
+            
+        </div>
+    </div> 
+    <script src="./map.js"></script>
+</body>
+</html>

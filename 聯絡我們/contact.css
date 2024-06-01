@@ -1,0 +1,71 @@
+@import url("./../css/cssreset.css");
+
+@import url("./../css/template.css");
+.mainbox{
+    display: flex;
+    
+}
+.main{
+    background-image: url(./../images/bgfunky-lines.webp);
+    width: 100%;
+    /* height: auto; */
+    margin-top: 75px;
+    
+}
+
+.leftbox {
+    width: 30%;
+    padding-right: 30px;
+    box-sizing: border-box;
+    /* display: flex; */
+    margin-top: 20px;
+}
+.rightbox {
+   font-size: 20px;
+   width: 70%;
+   padding: 10px;
+   box-sizing: border-box;  
+    
+}
+.leftbox-content{
+    margin-top: 30px;
+    text-align:center;
+    justify-content: center;
+}
+.contact{
+  text-align: center;
+  font-size: 30px;
+  padding-top: 20px;
+}
+
+.inputbox{
+    margin: 20px;
+}
+.aaa{
+    width: 60%;
+    height: 30px;
+    border-bottom-style: solid;
+    border-top-style: none;
+    border-left-style:none;
+    border-right-style:none;
+    background-color: #ffffff15;
+}
+
+/* .namebox{
+    width: 60%;
+    height: 30px;
+    border-bottom-style: solid;
+    border-top-style: none;
+    border-left-style:none;
+    border-right-style:none;
+    
+} */
+.textarea{
+    width: 66%;
+    height: 100px;
+}
+.button-box{
+    font-size: 20px;
+    
+
+}
