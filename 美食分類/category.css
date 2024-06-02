@@ -34,7 +34,7 @@ html, body {
 }
 .sidebar>ul>li>a{
     line-height: 30px;
-    border-left: 3px solid #9fad0d;
+    border-left: 4px solid #91983e;
     margin-bottom: 10px;
     margin-top: 20px;
     padding-left: 10px;
@@ -42,7 +42,7 @@ html, body {
     font-size: 20px;
     display: block;
     text-decoration: none;
-    color: #717171;
+    color: #272626;
 }
 .item{
     background-image: url(./../images/bgfunky-lines.webp);
@@ -82,14 +82,7 @@ html, body {
   box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
   margin: 40px;
 }
-.myh3{
-  font-size: 10px;
-  font-weight: bold;
-}
-.myp{
-  /* font-size: 50px; */
-  font-weight: bold;
-}
+
 .card img{
   width: 100%;
   height: 250px;
@@ -109,12 +102,18 @@ html, body {
 .readmore{
   display: inline-block;
   padding: 12px 20px;
-  background-color: #b5a3b6;
+  background-color: #a5ada7;
   text-decoration: none;
   border-radius: 4px;
   margin-top: 16px;
-  color:#050505
+  color:#050505;
+  font-size: 15px;
 }
 ul{
   list-style: none;
+}
+.search-results {
+  margin-top: 20px;
+  padding: 10px;
+  border-top: 1px solid #ccc;
 }

@@ -18,7 +18,7 @@
 
 <body>
     <header class="my-header">
-        <a class="header-h1" href="./../index/index.html">XixiEat</a>
+        <a class="header-h1" href="./../index2/index2.html">XixiEat</a>
         <nav class="my-navbar">
             <ul class="">
                 <li><a href="./../美食分類/category.html">美食分類</a></li>
@@ -27,12 +27,28 @@
                 <li><a href="./../聯絡我們/contact.html">聯絡我們</a></li>
             </ul>
         </nav>
-        <div class="social-icon">
-            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
-            <a href="#"><i class="fa-brands fa-facebook"></i></a>
-            <a href="#"><i class="fa-brands fa-youtube"></i></a>
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-        </div>
+        <header class="my-header">
+            <a class="header-h1" href="./../index2/index2.html">XixiEat</a>
+            <nav class="my-navbar">
+                <ul class="">
+                    <li><a href="./../美食分類/category.html">美食分類</a></li>
+                    <li><a href="./../美食地圖/map.html">美食地圖</a></li>
+                    <!-- <li><a href="./../新店報報/新店報報.html">新店報報.html</a></li> -->
+                    <li><a href="./../聯絡我們/contact.html">聯絡我們</a></li>
+                </ul>
+            </nav>
+            <div class="social-icon">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></a>
+                <div class="search">
+                    <input class="search-bar" placeholder="搜尋..." type="text">
+                </div>
+            </div>
+        </header>
+        <div class="search-results" id="search-results"></div>
+        
     </header>
     <div class="main">
 
@@ -69,8 +85,8 @@
                         <img src="../images/克莉絲塔1.jpeg" style="object-fit: cover;">
                         <div class="card-content">
                             <h3 style="font-size: 25px;font-weight: bold;">克莉絲塔 Christinetart</h3>
-                            <p style="font-size: 18px;font-weight: bold;" >推薦指數：★★★★☆
-                                
+                            <p style="font-size: 18px;font-weight: bold;">推薦指數：★★★★☆
+
                                 <span id="dots2">...</span>
                                 <br>
                                 <span id="more2" style="display: none;">
@@ -159,6 +175,7 @@
         <div class="text-center" style="font-size: 15px;">&copy; 此網站為練習使用</div>
     </footer>
     <script src="./category.js"></script>
+    <script src="./../css/template.js"></script>
 </body>
 
 </html>

@@ -112,7 +112,7 @@ nav>ul>li>a:hover{
     
 }
 .sidebar{
-    background-color: pink;
+    background-image: url(./../images/bgfunky-lines.webp);
     width: 15%;
     height: 100%;
     display: block;
@@ -123,7 +123,7 @@ nav>ul>li>a:hover{
 }
 .sidebar>ul>li>a{
     line-height: 30px;
-    border-left: 3px solid #9fad0d;
+    border-left: 4px solid pink;
     margin-bottom: 10px;
     margin-top: 20px;
     padding-left: 10px;
@@ -131,7 +131,7 @@ nav>ul>li>a:hover{
     font-size: 20px;
     display: block;
     text-decoration: none;
-    color: #717171;
+    color:#5181a2;
 }
 .item{
     background-image: url(./../images/bgfunky-lines.webp);
@@ -185,18 +185,19 @@ nav>ul>li>a:hover{
   margin-bottom: 8px;
 }
 .card-content p{
-  color:rgb(46, 103, 103);
+  color:#5181a2;
   font-size: 15px;
   line-height: 1.3;
 }
 .readmore{
   display: inline-block;
   padding: 12px 20px;
-  background-color: #907070;
+  background-color: #c09d9d;
   text-decoration: none;
   border-radius: 4px;
   margin-top: 16px;
-  color:#f0f0f0
+  color:#f0f0f0;
+  font-size: 15px;
 }
 ul{
   list-style: none;

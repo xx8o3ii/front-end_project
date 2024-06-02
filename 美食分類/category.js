@@ -3,7 +3,7 @@ function readMoreClicked(buttonId) {
     var dots = document.getElementById("dots"+buttonId);
     var moreText = document.getElementById("more"+buttonId);
     var btnText = document.getElementById("myBtn"+buttonId);
-    console.log("dots"+buttonId+88888887777777)
+    console.log("dots"+buttonId+87)
     if (dots.style.display === "none") {
         dots.style.display = "inline";
         btnText.innerHTML = "Read more";
