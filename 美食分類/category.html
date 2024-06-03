@@ -19,14 +19,14 @@
 <body>
     <header class="my-header">
         <a class="header-h1" href="./../index2/index2.html">XixiEat</a>
-        <nav class="my-navbar">
+        <!-- <nav class="my-navbar">
             <ul class="">
                 <li><a href="./../美食分類/category.html">美食分類</a></li>
                 <li><a href="./../美食地圖/map.html">美食地圖</a></li>
-                <!-- <li><a href="./../新店報報/新店報報.html">新店報報</a></li> -->
+                
                 <li><a href="./../聯絡我們/contact.html">聯絡我們</a></li>
             </ul>
-        </nav>
+        </nav> -->
         <header class="my-header">
             <a class="header-h1" href="./../index2/index2.html">XixiEat</a>
             <nav class="my-navbar">
@@ -43,11 +43,13 @@
                 <a href="#"><i class="fa-brands fa-instagram"></i></a>
                 <a href="#" class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></a>
                 <div class="search">
-                    <input class="search-bar" placeholder="搜尋..." type="text">
+                    <input class="search-bar" id="search-bar" placeholder="搜尋..." type="text">
+                    <div class="search-results" id="search-results"></div>
                 </div>
             </div>
+            
+            
         </header>
-        <div class="search-results" id="search-results"></div>
         
     </header>
     <div class="main">
@@ -65,15 +67,16 @@
             <div class="item">
                 <div>
                     <div class="card">
-                        <img src="../images/小陳故事多.jpeg" style="object-fit: cover;">
+                        <img src="../images/克莉絲塔1.jpeg" style="object-fit: cover;">
                         <div class="card-content">
-                            <h3 style="font-size: 25px;font-weight: bold;">小陳故事多</h3>
+                            <h3 style="font-size: 25px;font-weight: bold; "><a class="map" href="https://maps.app.goo.gl/RjBqzqEPiHUmcZX57">克莉絲塔 Christinetart</a></h3>
                             <p style="font-size: 18px;font-weight: bold;">推薦指數：★★★★☆
 
                                 <span id="dots1">...</span>
                                 <br>
                                 <span id="more1" style="display: none;">
-                                    推薦餐點：慢燉牛肉咖哩飯
+                                    
+                                    推薦餐點：焦糖佐海鹽蛋塔
                                 </span>
                             </p>
                             <button onclick="readMoreClicked('1')" id="myBtn1" class="readmore">Read more</button>
@@ -82,15 +85,15 @@
                 </div>
                 <div>
                     <div class="card">
-                        <img src="../images/克莉絲塔1.jpeg" style="object-fit: cover;">
+                        <img src="../images/小陳故事多.jpeg" style="object-fit: cover;">
                         <div class="card-content">
-                            <h3 style="font-size: 25px;font-weight: bold;">克莉絲塔 Christinetart</h3>
+                            <h3 style="font-size: 25px;font-weight: bold;"><a href="https://maps.app.goo.gl/DE7C6ovrkmegYx8M8" class="map">小陳故事多</a></h3>
                             <p style="font-size: 18px;font-weight: bold;">推薦指數：★★★★☆
 
                                 <span id="dots2">...</span>
                                 <br>
                                 <span id="more2" style="display: none;">
-                                    推薦餐點：焦糖佐海鹽蛋塔
+                                    推薦餐點：慢燉牛肉咖哩飯
                                 </span>
                             </p>
                             <button onclick="readMoreClicked('2')" id="myBtn2" class="readmore">Read more</button>
@@ -101,7 +104,7 @@
                     <div class="card">
                         <img src="../images/牛庵.jpeg" style="object-fit: cover;">
                         <div class="card-content">
-                            <h3 style="font-size: 25px;font-weight: bold;">牛庵</h3>
+                            <h3 style="font-size: 25px;font-weight: bold;"><a href="https://maps.app.goo.gl/UEpUxBNN4NqbBPbN9" class="map">牛庵</a></h3>
                             <p style="font-size: 18px;font-weight: bold;">推薦指數：★★★★☆
 
                                 <span id="dots3">...</span>
@@ -118,7 +121,7 @@
                     <div class="card">
                         <img src="../images/ten thousand.jpeg" style="object-fit: cover;">
                         <div class="card-content">
-                            <h3 style="font-size: 25px;font-weight: bold;">Ten Thousand Coffee</h3>
+                            <h3 style="font-size: 25px;font-weight: bold;"><a href="https://maps.app.goo.gl/Y6ubd9KLrxcx1znr9" class="map">Ten Thousand Coffee</a></h3>
                             <p style="font-size: 18px;font-weight: bold;">推薦指數：★★★★☆
 
                                 <span id="dots4">...</span>
@@ -135,7 +138,7 @@
                     <div class="card">
                         <img src="../images/頂吉火雞肉飯.jpeg" style="object-fit: cover;">
                         <div class="card-content">
-                            <h3 style="font-size: 25px;font-weight: bold;">頂吉火雞肉飯</h3>
+                            <h3 style="font-size: 25px;font-weight: bold;"><a href="https://maps.app.goo.gl/c7hqWCrMun5XBajS8" class="map">頂吉火雞肉飯</a></h3>
                             <p style="font-size: 18px;font-weight: bold;">推薦指數：★★★★☆
 
                                 <span id="dots5">...</span>
@@ -152,7 +155,7 @@
                     <div class="card">
                         <img src="../images/一笈壽司.jpeg" style="object-fit: cover;">
                         <div class="card-content">
-                            <h3 style="font-size: 25px;font-weight: bold;">一笈壽司</h3>
+                            <h3 style="font-size: 25px;font-weight: bold;"><a href="https://maps.app.goo.gl/9mNurDEPSvL2WJ9q6" class="map">一笈壽司</a></h3>
                             <p style="font-size: 18px;font-weight: bold;">推薦指數：★★★★☆
 
                                 <span id="dots6">...</span>
@@ -174,6 +177,7 @@
         <div class="footer-logo">XixiEat</div>
         <div class="text-center" style="font-size: 15px;">&copy; 此網站為練習使用</div>
     </footer>
+    <a href="#" class="pagetop"><i class="fa-solid fa-circle-up"></i></a>
     <script src="./category.js"></script>
     <script src="./../css/template.js"></script>
 </body>

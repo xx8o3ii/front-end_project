@@ -28,18 +28,14 @@
             </ul>
         </nav>
         <div class="social-icon">
-
-
-            <div class="search">
-                <input class="search-bar" placeholder="搜尋..." type="text">
-                <!-- <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button> -->
-            </div>
-
-
-            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
             <a href="#"><i class="fa-brands fa-facebook"></i></a>
             <a href="#"><i class="fa-brands fa-youtube"></i></a>
             <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></a>
+            <div class="search">
+                <input class="search-bar" id="search-bar" placeholder="搜尋..." type="text">
+                <div class="search-results" id="search-results"></div>
+            </div>
         </div>
     </header>
     <div class="main">
@@ -59,7 +55,7 @@
                     <div class="card">
                         <img src="../images/偷偷.jpeg" style="object-fit: cover;">
                         <div class="card-content">
-                            <h3 style="font-size: 25px; font-weight: bold;">偷偷Toutou Cuisine</h3>
+                            <h3 style="font-size: 25px; font-weight: bold;"><a href="https://maps.app.goo.gl/ecxmUnRtLy1jLGpi8" class="map">偷偷Toutou Cuisine</a></h3>
                             <p style="font-size: 18px; font-weight: bold;">推薦指數：★☆☆☆☆
                                 <span id="dots1">...</span>
                                 <br>
@@ -75,7 +71,7 @@
                     <div class="card">
                         <img src="../images/克莉絲塔1.jpeg" style="object-fit: cover;">
                         <div class="card-content">
-                            <h3 style="font-size: 25px; font-weight: bold;">克莉絲塔 Christinetart</h3>
+                            <h3 style="font-size: 25px; font-weight: bold;"><a href="https://maps.app.goo.gl/fZeZaFY1duQka1y78" class="map">克莉絲塔 Christinetart</a></h3>
                             <p style="font-size: 18px; font-weight: bold;">推薦指數：★★★★☆
                                 <span id="dots2">...</span>
                                 <br>
@@ -91,7 +87,7 @@
                     <div class="card">
                         <img src="../images/貓掌布丁大.jpeg" style="object-fit: cover;">
                         <div class="card-content">
-                            <h3 style="font-size: 25px; font-weight: bold;">J.W. CAFE</h3>
+                            <h3 style="font-size: 25px; font-weight: bold;"><a href="https://maps.app.goo.gl/P7g3yVhK17WBiLBm7" class="map">J.W. CAFE</a></h3>
                             <p style="font-size: 18px; font-weight: bold;">推薦指數：★★☆☆☆
                                 <span id="dots3">...</span>
                                 <br>
@@ -107,7 +103,7 @@
                     <div class="card">
                         <img src="../images/ten thousand.jpeg" style="object-fit: cover;">
                         <div class="card-content">
-                            <h3 style="font-size: 25px; font-weight: bold;">Ten Thousand Coffee</h3>
+                            <h3 style="font-size: 25px; font-weight: bold;"><a href="https://maps.app.goo.gl/Y6ubd9KLrxcx1znr9" class="map">Ten Thousand Coffee</a></h3>
                             <p style="font-size: 18px; font-weight: bold;">推薦指數：★★★★☆
                                 <span id="dots4">...</span>
                                 <br>
@@ -123,7 +119,7 @@
                     <div class="card">
                         <img src="../images/勞咖.jpeg" style="object-fit: cover;">
                         <div class="card-content">
-                            <h3 style="font-size: 25px; font-weight: bold;">勞咖 Lowca</h3>
+                            <h3 style="font-size: 25px; font-weight: bold;"><a href="https://maps.app.goo.gl/Bn6mL82NYgy7C9tV7" class="map">勞咖 Lowca</a></h3>
                             <p style="font-size: 18px; font-weight: bold;">推薦指數：★★☆☆☆
                                 <span id="dots5">...</span>
                                 <br>
@@ -139,7 +135,7 @@
                     <div class="card">
                         <img src="../images/離域1.jpeg" style="object-fit: cover;">
                         <div class="card-content">
-                            <h3 style="font-size: 25px; font-weight: bold;">離域Cafe</h3>
+                            <h3 style="font-size: 25px; font-weight: bold;"><a href="https://maps.app.goo.gl/x9vJ7nereSAYgjKX9" class="map">離域Cafe</a></h3>
                             <p style="font-size: 18px; font-weight: bold;">推薦指數：★★★☆☆
                                 <span id="dots6">...</span>
                                 <br>
@@ -160,7 +156,9 @@
         <div class="footer-logo">XixiEat</div>
         <div class="text-center" style="font-size: 15px;">&copy; 此網站為練習使用</div>
     </footer>
+    <a href="#" class="pagetop"><i class="fa-solid fa-circle-up"></i></a>
     <script src="./category.js"></script>
+    <script src="./../css/template.js"></script>
 </body>
 
 </html>

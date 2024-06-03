@@ -5,8 +5,14 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-}
 
+}
+body {
+      /* display: flex; */
+      display: flex;
+  flex-direction: column;
+      min-height: 100%;
+    }
 header{
     position: fixed;
     left:0px;
@@ -131,7 +137,8 @@ nav>ul>li>a:hover{
     font-size: 20px;
     display: block;
     text-decoration: none;
-    color:#5181a2;
+    color:#3c637c;
+    font-weight: bold;
 }
 .item{
     background-image: url(./../images/bgfunky-lines.webp);
@@ -185,7 +192,7 @@ nav>ul>li>a:hover{
   margin-bottom: 8px;
 }
 .card-content p{
-  color:#5181a2;
+  color:#3c637c;
   font-size: 15px;
   line-height: 1.3;
 }
@@ -202,3 +209,35 @@ nav>ul>li>a:hover{
 ul{
   list-style: none;
 }
+.map{
+  text-decoration: none;
+  color: black;
+}
+.pagetop{
+  position: fixed; 
+  right:10px;
+  bottom:10px;
+  background-color: rgb(185, 178, 193);
+  width: 50px;
+  line-height: 50px;
+  color:rgb(56, 31, 94);
+  display: block;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 30px;
+}
+/* footer{
+  position: absolute;  
+  bottom: 0;
+  width: 100%; 
+  
+  background-color: #d7e9f5;
+  padding: 1vh;
+  
+}
+.footer-logo{
+  font-family: "Jaro", sans-serif;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+} */

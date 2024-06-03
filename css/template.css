@@ -55,7 +55,7 @@
 }
  
 .search-bar {
-    width: 0;
+    width: 200px;
     height: 40px;
     border-bottom-style: solid;
     border-color: #f4f4f4;
@@ -65,22 +65,22 @@
     box-sizing: border-box;
     background-color: rgb(190, 186, 210);
     margin-right: 12px;
-    display: inline-block; /* 初始设置为内联块，便于动画 */
-    position: absolute; /* 使其绝对定位 */
-    top: 0px; /* 调整位置 */
-    right: 50px; /* 调整位置，避免覆盖搜索图标 */
-    z-index: 1000; /* 确保其覆盖在其他图标上 */
-    opacity: 0; /* 初始透明度 */
-    transition: width 0.4s ease, opacity 0.4s ease; /* 过渡效果 */
+    display: inline-block; 
+    position: absolute; 
+    top: 0px; 
+    right: 50px; 
+    z-index: 500; 
+    opacity: 0; 
+    transition: width 0.4s ease, opacity 0.4s ease; 
     font-size: 16px;
     padding: 8px;
 }
 .search-bar::placeholder {
-    font-size: 16px; /* Placeholder 的字体大小 */
+    font-size: 16px; 
     font-weight: 500;
 }
 .search-bar:focus {
-    border-bottom-color: rgba(255, 255, 255, 0.706); /* 点击时底部边框颜色变为绿色 */
+    border-bottom-color: rgba(255, 255, 255, 0.706); 
     outline: none;
 }
 
@@ -91,22 +91,60 @@
     height: 40px;
     width: 35%;
     margin-right: 20px;
-    position: relative; /* 使其内部元素绝对定位相对于此元素 */
+    position: relative; 
 }
 
 .social-icon > a > i {
     color: #49455b;
     font-size: 30px;
-    line-height: 40px; /* 使其垂直居中 */
+    line-height: 40px; 
     letter-spacing: 20px;
 }
 
 .search-icon {
     position: relative;
-    z-index: 1001; /* 确保搜索图标在搜索栏之上 */
+    z-index: 1001; 
 }
 
 
+/*  */
+
+.search {
+    position: relative;
+    display: inline-block; 
+}
+
+
+.search-results {
+    position: absolute;
+    top: 100%; 
+    right: 62px;
+    width: 200px; 
+    background-color: #cfcfcf; 
+    border: 1px solid #ccc; 
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+    display: none;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+
+.search-results div {
+    padding: 8px 12px; 
+    cursor: pointer; 
+    /* width: 200px; */
+}
+
+.search-results div:hover {
+    background-color: #f0f0f0; 
+}
+
+
+
+/*  */
 .fa-magnifying-glass:hover{ color:floralwhite}
 .fa-facebook:hover{ color:#4a74ca; }
 .fa-youtube:hover{ color:rgb(215, 66, 66)}
@@ -121,6 +159,7 @@ footer{
     width: 100%; 
     margin-top: auto;
     background-color: #d7e9f5;
+    padding: 1vh;
 }
 .footer-logo{
     font-family: "Jaro", sans-serif;

@@ -43,6 +43,7 @@ html, body {
     display: block;
     text-decoration: none;
     color: #272626;
+    font-weight: bold;
 }
 .item{
     background-image: url(./../images/bgfunky-lines.webp);
@@ -116,4 +117,21 @@ ul{
   margin-top: 20px;
   padding: 10px;
   border-top: 1px solid #ccc;
+}
+.map{
+  text-decoration: none;
+  color: black;
+}
+.pagetop{
+  position: fixed; 
+  right:10px;
+  bottom:10px;
+  background-color: rgb(185, 178, 193);
+  width: 50px;
+  line-height: 50px;
+  color:rgb(56, 31, 94);
+  display: block;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 30px;
 }

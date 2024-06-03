@@ -26,18 +26,14 @@
             </ul>
         </nav>
         <div class="social-icon">
-
-
-            <div class="search">
-                <input class="search-bar" placeholder="搜尋..." type="text">
-                <!-- <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button> -->
-            </div>
-
-
-            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
             <a href="#"><i class="fa-brands fa-facebook"></i></a>
             <a href="#"><i class="fa-brands fa-youtube"></i></a>
             <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></a>
+            <div class="search">
+                <input class="search-bar" id="search-bar" placeholder="搜尋..." type="text">
+                <div class="search-results" id="search-results"></div>
+            </div>
         </div>
     </header>
     <div class="main">
@@ -57,7 +53,7 @@
                     <div class="card">
                         <img src="../images/混義大利麵.webp" style="object-fit: cover;">
                         <div class="card-content">
-                            <h3 style="font-size: 25px; font-weight: bold;">HUN 義大利麵</h3>
+                            <h3 style="font-size: 25px; font-weight: bold;"><a href="https://maps.app.goo.gl/u7HtWZADmDopgwkq5" class="map">HUN 義大利麵</a></h3>
                             <p style="font-size: 18px; font-weight: bold;">推薦指數：★★★☆☆
                                 <span id="dots1">...</span>
                                 <br>
@@ -72,7 +68,7 @@
                     <div class="card">
                         <img src="../images/做咖啡.jpeg" style="object-fit: cover;">
                         <div class="card-content">
-                            <h3 style="font-size: 25px; font-weight: bold;">做咖啡</h3>
+                            <h3 style="font-size: 25px; font-weight: bold;"><a href="https://maps.app.goo.gl/ypE3ik1kSvYpXoYHA" class="map">做咖啡</a></h3>
                             <p style="font-size: 18px; font-weight: bold;">推薦指數：★★★☆☆
                                 <span id="dots2">...</span>
                                 <br>
@@ -87,7 +83,7 @@
                     <div class="card">
                         <img src="../images/鵝媽媽.webp" style="object-fit: cover;">
                         <div class="card-content">
-                            <h3 style="font-size: 25px; font-weight: bold;">鵝媽媽</h3>
+                            <h3 style="font-size: 25px; font-weight: bold;"><a href="https://maps.app.goo.gl/uYCRYYYS9zjpZfX88" class="map">鵝媽媽</a></h3>
                             <p style="font-size: 18px; font-weight: bold;">推薦指數：★★★★☆
                                 <span id="dots3">...</span>
                                 <br>
@@ -102,7 +98,7 @@
                     <div class="card">
                         <img src="../images/卡司.jpeg" style="object-fit: cover;">
                         <div class="card-content">
-                            <h3 style="font-size: 25px; font-weight: bold;">KATZ 卡司韓藝料理</h3>
+                            <h3 style="font-size: 25px; font-weight: bold;"><a href="https://maps.app.goo.gl/qrQG4BvN9qHp4buD7" class="map">KATZ 卡司韓藝料理</a></h3>
                             <p style="font-size: 18px; font-weight: bold;">推薦指數：★★★★☆
                                 <span id="dots4">...</span>
                                 <br>
@@ -117,7 +113,7 @@
                     <div class="card">
                         <img src="../images/萬華甜不辣.jpeg" style="object-fit: cover;">
                         <div class="card-content">
-                            <h3 style="font-size: 25px; font-weight: bold;">萬華甜不辣</h3>
+                            <h3 style="font-size: 25px; font-weight: bold;"><a href="https://maps.app.goo.gl/YKL182AJPRAq6BCD7" class="map">萬華甜不辣</a></h3>
                             <p style="font-size: 18px; font-weight: bold;">推薦指數：★★★★★
                                 <span id="dots5">...</span>
                                 <br>
@@ -132,7 +128,7 @@
                     <div class="card">
                         <img src="../images/刁民酸菜魚.jpeg" style="object-fit: cover;">
                         <div class="card-content">
-                            <h3 style="font-size: 25px; font-weight: bold;">刁民酸菜魚</h3>
+                            <h3 style="font-size: 25px; font-weight: bold;"><a href="https://maps.app.goo.gl/jSBBco4YwNHCZs7k8" class="map">刁民酸菜魚</a></h3>
                             <p style="font-size: 18px; font-weight: bold;">推薦指數：★★☆☆☆
                                 <span id="dots6">...</span>
                                 <br>
@@ -149,6 +145,13 @@
             
         </div>
     </div> 
+    <footer>
+
+        <div class="footer-logo">XixiEat</div>
+        <div class="text-center" style="font-size: 15px;">&copy; 此網站為練習使用</div>
+    </footer>
+    <a href="#" class="pagetop"><i class="fa-solid fa-circle-up"></i></a>
     <script src="./map.js"></script>
+    <script src="./../css/template.js"></script>
 </body>
 </html>
